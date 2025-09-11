@@ -4,81 +4,27 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Shipboard Training - CBA Reviewer (Demo)</title>
-  <style>
-    body { font-family: Arial, sans-serif; margin: 0; background: #f0f4fa; padding-bottom: 120px; }
 
-    header {
-      position: relative;
-      background: #0d3b52;
-      color: white;
-      height: 280px;
-      overflow: hidden;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-    }
+  <!-- Site Title -->
+  <title>Shipboard Training - CBA Reviewer</title>
 
-    .header-img {
-      position: absolute;
-      bottom: 0;
-      height: 100%;
-      max-height: 280px;
-      object-fit: contain;
-      image-rendering: -webkit-optimize-contrast;
-      image-rendering: crisp-edges;
-      opacity: 0.95; /* keeps them visible but text still dominant */
-    }
+  <!-- Description (appears when shared) -->
+  <meta name="description" content="Shipboard Training CBA Reviewer by D/Cdt Emerjohn L. Lascuña. Prepare for success — 19 competencies with quizzes for cadets." />
 
-    .header-img.left { left: 0; }
-    .header-img.right { right: 0; }
+  <!-- Open Graph / Facebook -->
+  <meta property="og:title" content="Shipboard Training - CBA Reviewer" />
+  <meta property="og:description" content="A complete reviewer with 19 competencies for cadets, created by D/Cdt Emerjohn L. Lascuña." />
+  <meta property="og:image" content="https://yourusername.github.io/shipboard-reviewer/right-cadet.png" />
+  <meta property="og:type" content="website" />
 
-    .header-content {
-      z-index: 2; /* text stays above images */
-      max-width: 60%;
-    }
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Shipboard Training - CBA Reviewer" />
+  <meta name="twitter:description" content="A complete reviewer with 19 competencies for cadets, created by D/Cdt Emerjohn L. Lascuña." />
+  <meta name="twitter:image" content="https://yourusername.github.io/shipboard-reviewer/left-cadet.png" />
 
-    .header-content h1 {
-      font-size: 2.2rem;
-      margin-bottom: 6px;
-    }
-
-    .header-content p {
-      font-size: 1rem;
-      margin: 4px 0;
-    }
-
-    .header-content .note {
-      font-size: 0.95rem;
-      font-style: italic;
-      margin-top: 12px;
-      color: #e0e0e0;
-    }
-
-    main { padding: 18px; max-width: 1000px; margin: auto; }
-    .intro { margin: 18px auto; text-align: center; font-size: 1.05rem; font-style: italic; color: #333; }
-
-    select { padding: 12px; font-size: 1rem; margin: 16px auto; display: block; border-radius: 6px; border: 1px solid #ccc; width: 280px; }
-
-    .question { margin-bottom: 14px; padding: 14px; background: #fff; border-radius: 10px; box-shadow: 0 6px 14px rgba(0,0,0,0.06); transition: transform 0.18s; }
-    .question:hover { transform: translateY(-3px); }
-
-    .controls { position: fixed; bottom: 12px; left: 50%; transform: translateX(-50%); background: #fff; box-shadow: 0 8px 18px rgba(0,0,0,0.12); padding: 10px 12px; border-radius: 10px; display: flex; gap: 8px; z-index: 999; }
-    .controls button { background: #007bff; color: #fff; padding: 10px 14px; border: none; border-radius: 8px; cursor: pointer; font-size: 0.98rem; }
-    .controls button:hover { background: #0056b3; }
-
-    #result { text-align: center; font-size: 1.1rem; margin-top: 12px; font-weight: bold; }
-    .review { margin-top: 20px; padding: 16px; background: #fff; border-radius: 8px; box-shadow: 0 6px 12px rgba(0,0,0,0.06); display: none; }
-    .review.active { display: block; }
-    .correct { color: #2ecc71; font-weight: bold; }
-    .wrong { color: #e74c3c; font-weight: bold; }
-    @media (max-width:600px) { 
-      header { height: auto; padding: 20px; }
-      .header-content { max-width: 100%; margin: 15px 0; }
-      .header-img { height: 150px; }
-    }
-  </style>
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="left-cadet.png" />
 </head>
 <body>
   <header>
